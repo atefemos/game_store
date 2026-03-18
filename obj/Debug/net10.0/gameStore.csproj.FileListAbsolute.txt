@@ -26,3 +26,10 @@ c:\dev\gameStore\obj\Debug\net10.0\refint\gameStore.dll
 c:\dev\gameStore\obj\Debug\net10.0\gameStore.pdb
 c:\dev\gameStore\obj\Debug\net10.0\gameStore.genruntimeconfig.cache
 c:\dev\gameStore\obj\Debug\net10.0\ref\gameStore.dll
+C:\dev\gameStore\obj\Debug\net10.0\gameStore.sourcelink.json
+C:\dev\gameStore\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\dev\gameStore\bin\Debug\net10.0\MinimalApis.Extensions.dll
+C:\dev\gameStore\bin\Debug\net10.0\MiniValidation.dll
+C:\dev\gameStore\obj\Debug\net10.0\gameStore.csproj.AssemblyReference.cache
+C:\dev\gameStore\obj\Debug\net10.0\gameStore.MvcApplicationPartsAssemblyInfo.cs
+C:\dev\gameStore\obj\Debug\net10.0\gameStore.csproj.Up2Date
