@@ -1,34 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\gameStore\\gameStore.csproj": {}
+    "/Users/atefe/Downloads/game_store/gameStore.csproj": {}
   },
   "projects": {
-    "C:\\dev\\gameStore\\gameStore.csproj": {
+    "/Users/atefe/Downloads/game_store/gameStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\gameStore\\gameStore.csproj",
+        "projectUniqueName": "/Users/atefe/Downloads/game_store/gameStore.csproj",
         "projectName": "gameStore",
-        "projectPath": "C:\\dev\\gameStore\\gameStore.csproj",
-        "packagesPath": "C:\\Users\\AtefeMoslemiBlue10\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\gameStore\\obj\\",
+        "projectPath": "/Users/atefe/Downloads/game_store/gameStore.csproj",
+        "packagesPath": "/Users/atefe/.nuget/packages/",
+        "outputPath": "/Users/atefe/Downloads/game_store/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AtefeMoslemiBlue10\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/atefe/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/blue10/_packaging/B10Commons/nuget/v3/index.json": {}
+          "/opt/homebrew/Cellar/dotnet/10.0.105/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -52,6 +45,10 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
             "MinimalApis.Extensions": {
               "target": "Package",
               "version": "[0.11.0, )"
@@ -76,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/10.0.105/libexec/sdk/10.0.105/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
