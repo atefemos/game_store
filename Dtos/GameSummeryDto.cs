@@ -1,8 +1,8 @@
 namespace GameStore.Dtos
 {
-	public record class GameDto
+	public record class GameSummaryDto
 	{
-        public GameDto(int id, string name, string genre, string description, decimal price, DateOnly releaseDate)
+        public GameSummaryDto(int id, string name, string genre, string description, decimal price, DateOnly releaseDate)
         {
             Id = id;
             Name = name;
